@@ -1,0 +1,1 @@
+print([ animal_id for animal in db.animals.find_one({"animal_type":"Cat"})])
